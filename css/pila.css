@@ -1,0 +1,74 @@
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900);
+@import url(http://fonts.googleapis.com/css?family=Bangers);
+@import url(http://fonts.googleapis.com/css?family=Coda+Caption:800);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+[class*="entypo-"]:before {
+	font-family: 'entypo', sans-serif;
+}
+
+.navbar {
+	background: transparent;
+	font-family: 'Bangers',cursive;
+	font-size: 3em;
+	width: 60%;
+	margin-left: 20%;
+	border: none;
+}
+
+.navbar .navbar-brand img {
+	width: 34%;
+	margin-top: -8px;
+}
+
+.nav {
+	margin-right: 2px;
+	margin-top: 5px;
+}
+
+.navbar-header a { 
+	list-style: none;
+    color: #fff;
+}
+
+.nav li:active {
+	border: none;
+}
+
+h4 {	
+	font-family: 'Roboto'!important;
+	font-weight: bold;
+	width: 50%;
+	background-color: #fff !important;
+	color: #777777;
+	margin-left: 25%;
+}
+
+.table h4 {
+    color: #000 !important;
+}
+
+.jumbotron img {
+	width: 46%;
+	height: auto;
+}
+
+.jumbotron .color1 {
+	color: #BFB94C;
+}
+
+.jumbotron .album {
+	float: left;
+	width: 20%;
+}
+
+.jumbotron .spotify {
+    width: 5% !important;
+}
+
+.jumbotron .itunes {
+    width: 6% !important;
+}
+
+
