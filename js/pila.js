@@ -32,35 +32,22 @@
         
             })
 
-            .when('/links', {
-                templateUrl : 'pages/links.html',
-                controller  : 'linksController'
-            })
-
-            .when('/contact', {
-                templateUrl : 'pages/contact.html',
-                controller  : 'contactController'
-            });
     });
 
-    // controller
+    // controllers
     pilaApp.controller('mainController', function($scope,$timeout) {
                 
                     $scope.bodyStyle = {background:"url(img/pattern.jpg)"};
                     $timeout(function() {
-                $scope.$apply(function() {
-                        $scope.items[0].lateLoader = 'i just loaded';  
-                });
-        }, 1000);
+                    $scope.$apply(function() {
+                    $scope.items[0].lateLoader = 'i just loaded';  
+                    });
+     }, 1000);
                    
-       
 
     });
 
     pilaApp.controller('liveController', function($scope) {
-        
-                   
-        
     });
 
     pilaApp.controller('audioController', function($scope) {
@@ -69,17 +56,9 @@
 
     pilaApp.controller('videoController', function($scope) {
         
-       
-      
     });
 
-    pilaApp.controller('linksController', function($scope) {
-      
-    });
 
-    pilaApp.controller('contactController', function($scope) {
-      
-    });
 
 
  
