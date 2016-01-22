@@ -1,2 +1,3 @@
 # pyla
-Pyla AngularJS project
+Pyla Angular.js project
+www.chupalapila.com
